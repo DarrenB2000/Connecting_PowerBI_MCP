@@ -1,0 +1,38 @@
+# Streamlit Configuration
+# This file configures the Streamlit server and UI theme
+
+[server]
+# Server port
+port = 8501
+
+# Run in headless mode (no browser auto-open for production)
+headless = false
+
+# Enable CORS (required when enableXsrfProtection is true)
+# This is safe for local development
+enableCORS = true
+
+# File watcher type
+fileWatcherType = "auto"
+
+[browser]
+# Don't gather usage stats
+gatherUsageStats = false
+
+# Server address
+serverAddress = "localhost"
+
+[theme]
+# PowerBI/Microsoft-inspired color scheme
+primaryColor = "#0078D4"  # Microsoft Blue
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[runner]
+# Faster rerun on file changes
+fastReruns = true
+
+# Magic commands enabled
+magicEnabled = true

@@ -1,0 +1,23 @@
+# Claude API
+anthropic>=0.40.0
+
+# MCP Client SDK
+mcp>=1.3.0
+
+# Microsoft Authentication
+msal>=1.34.0
+
+# Async HTTP (for SSE transport)
+httpx>=0.28.0
+
+# CLI & UI
+rich>=13.9.0
+prompt-toolkit>=3.0.48
+
+# Configuration
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-dotenv>=1.0.1
+
+# Web UI
+streamlit>=1.40.0
