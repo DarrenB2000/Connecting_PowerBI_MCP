@@ -123,11 +123,3 @@ To sign in, visit https://microsoft.com/devicelogin and enter the code: XXXXX-XX
 ```
 
 After signing in through your browser, the token is cached locally at `~/.powerbi-mcp/token_cache.bin` and auto-refreshes on subsequent runs.
-
-## Troubleshooting
-
-See [docs/troubleshooting.md](docs/troubleshooting.md) for common issues.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
